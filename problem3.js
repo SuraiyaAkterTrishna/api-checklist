@@ -22,4 +22,15 @@ const calculation = (first, second) => {
     return result;
 };
 const output2 = calculation(10, 20);
-console.log(output2);
+// console.log(output2);
+/* 
+৩.৪ একাধিক লাইন ওয়ালা অ্যারো ফাংশন লিখো। সেটাতে দুইটা প্যারামিটার নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ৭ যোগ করবে তারপর যোগফল দুইটাকে আবার যোগ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো।  */
+
+const multiLine = (x, y) => {
+    const first = x + 7;
+    const second = y + 7;
+    const sum = first + second; 
+    return sum;
+};
+const output3 = multiLine(1, 2);
+console.log(output3);
